@@ -17,6 +17,8 @@ import {
   setUser,
   clearUser
 } from './redux/actions/user_action';
+import ProfilePage from './components/mainPage/profilePage/ProfilePage';
+import LegendPage from './components/mainPage/legendPage/LegendPage';
 
 
 function App(props) {
@@ -47,6 +49,9 @@ function App(props) {
   return (
         <Switch>
           <Route exact path="/" component={MainPage} />
+          <Route exact path="/home" component={MainPage} />
+          <Route exact path="/profile" component={ProfilePage} />
+          <Route exact path="/legend" component={LegendPage} />
           <Route exact path="/login" component={LoginPage} />
           <Route exact path="/register" component={RegisterPage} />
         </Switch>

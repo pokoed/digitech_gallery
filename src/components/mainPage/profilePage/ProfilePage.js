@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../../header/Header'
 
-function LegendPage() {
+function ProfilePage() {
     return (
         <div>
             <Header />
-            Legend
+            ProfilePage
         </div>
     )
 }
 
-export default LegendPage
+export default ProfilePage
