@@ -7,6 +7,7 @@ function MainPage() {
         <div>
             <Header />
             Home
+            <ProfilePage />
         </div>
     )
 }
